@@ -1,0 +1,19 @@
+{
+    "name": "Muckety",
+    "description": "Search muckety.com for highlighted text",
+    "version": "1.0",
+    "permissions": [
+        "contextMenus"
+    ],
+    "icons": {
+        "16": "icon-tiny.png",
+        "48": "icon-small.png",
+        "128": "icon-large.png"
+    },
+    "background": {
+        "scripts": [
+            "muckety.js"
+        ]
+    },
+    "manifest_version": 2
+}
